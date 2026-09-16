@@ -1,0 +1,17 @@
+VERIFORGE BROWSER-ONLY SOURCE
+
+Extract this ZIP before uploading to GitHub. Preserve the frontend folder.
+Use GitHub Desktop to replace the old project, review deletions, commit and push.
+GitHub browser uploads do not delete obsolete files automatically.
+
+Connect the GitHub repository to Netlify. The root netlify.toml configures:
+  Base directory: frontend
+  Build command: pnpm build
+  Publish directory: .next
+
+No Render, Python backend, login, password or backend URL is required.
+Do not drag this source ZIP into Netlify's manual static upload area.
+Read docs/NETLIFY_DEPLOYMENT.md for the complete beginner guide.
+
+The archive excludes local credentials, browser data, installed dependencies and builds.
+Python source is retained only as a legacy parity reference.

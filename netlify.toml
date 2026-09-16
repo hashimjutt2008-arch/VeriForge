@@ -1,0 +1,10 @@
+# Browser-only application. Netlify is the only required host.
+[build]
+base = "frontend"
+command = "pnpm build"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "22"
+PNPM_FLAGS = "--shamefully-hoist --frozen-lockfile"
+NEXT_TELEMETRY_DISABLED = "1"
