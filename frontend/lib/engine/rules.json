@@ -1,0 +1,100 @@
+{
+  "disposable_domains": [
+    "mailinator.com",
+    "guerrillamail.com",
+    "guerrillamail.net",
+    "10minutemail.com",
+    "tempmail.com",
+    "yopmail.com",
+    "trashmail.com",
+    "sharklasers.com",
+    "getnada.com",
+    "dispostable.com"
+  ],
+  "example_patterns": ["john@company.com", "johns@gmail.com"],
+  "free_email_domains": [
+    "gmail.com",
+    "googlemail.com",
+    "outlook.com",
+    "hotmail.com",
+    "live.com",
+    "msn.com",
+    "yahoo.com",
+    "ymail.com",
+    "icloud.com",
+    "me.com",
+    "mac.com",
+    "aol.com",
+    "proton.me",
+    "protonmail.com",
+    "gmx.com",
+    "gmx.net",
+    "mail.com",
+    "zoho.com"
+  ],
+  "lead_router_domains": ["leads.leadrouter.com"],
+  "local_correction_evidence": {
+    "20ryan@nelsondevelop.com": "ryan@nelsondevelop.com"
+  },
+  "placeholder_addresses": [
+    "filler@godaddy.com",
+    "test@test.com",
+    "fake@gmail.com",
+    "you@email.com"
+  ],
+  "placeholder_domains": [
+    "test.com",
+    "email.com",
+    "domain.com",
+    "yourdomain.com"
+  ],
+  "placeholder_usernames": [
+    "filler",
+    "placeholder",
+    "dummy",
+    "sample",
+    "example",
+    "test",
+    "testing",
+    "fake",
+    "unknown",
+    "none",
+    "null",
+    "noemail",
+    "yourname",
+    "name",
+    "user",
+    "demo",
+    "you"
+  ],
+  "role_mailboxes": [
+    "info",
+    "sales",
+    "contact",
+    "admin",
+    "office",
+    "support",
+    "hello",
+    "leasing",
+    "careers",
+    "billing",
+    "accounts",
+    "estimating"
+  ],
+  "sms_gateway_domains": [
+    "vtext.com",
+    "txt.att.net",
+    "mms.att.net",
+    "tmomail.net",
+    "messaging.sprintpcs.com",
+    "vmobl.com",
+    "mymetropcs.com",
+    "sms.myboostmobile.com",
+    "email.uscc.net"
+  ],
+  "system_domains": [
+    "sentry.wixpress.com",
+    "sentry-next.wixpress.com",
+    "sentry.io"
+  ]
+}
