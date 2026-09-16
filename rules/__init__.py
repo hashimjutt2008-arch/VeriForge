@@ -1,0 +1,1 @@
+"""Versioned, configurable detection data."""

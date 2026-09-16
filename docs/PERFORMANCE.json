@@ -1,0 +1,38 @@
+[
+  {
+    "rows": 1000,
+    "processing_seconds_with_tracemalloc": 1.254,
+    "csv_export_seconds": 0.031,
+    "peak_python_allocations_mb": 0.4,
+    "peak_process_working_set_mb": 28.37,
+    "clean": 803,
+    "invariants": "passed"
+  },
+  {
+    "rows": 10000,
+    "processing_seconds_with_tracemalloc": 5.426,
+    "csv_export_seconds": 0.108,
+    "peak_python_allocations_mb": 2.3,
+    "peak_process_working_set_mb": 32.73,
+    "clean": 8003,
+    "invariants": "passed"
+  },
+  {
+    "rows": 50000,
+    "processing_seconds_with_tracemalloc": 24.003,
+    "csv_export_seconds": 0.563,
+    "peak_python_allocations_mb": 9.63,
+    "peak_process_working_set_mb": 48.07,
+    "clean": 40003,
+    "invariants": "passed"
+  },
+  {
+    "rows": 100000,
+    "processing_seconds_with_tracemalloc": 53.255,
+    "csv_export_seconds": 1.353,
+    "peak_python_allocations_mb": 19.64,
+    "peak_process_working_set_mb": 66.61,
+    "clean": 80003,
+    "invariants": "passed"
+  }
+]

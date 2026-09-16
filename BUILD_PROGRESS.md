@@ -106,3 +106,5 @@ Added docs/NETLIFY_DEPLOYMENT.md, root netlify.toml and the locally installed pn
 - Phase 14: removed obsolete frontend proxy/auth/client/download/resource modules and superseded backend-dependent UI tests after browser-only tests passed. Python implementation retained. Final regression and package preparation in progress.
 
 - 2026-09-16 final completion: phases 10–14 fully verified after cleanup. `pnpm build` succeeds with the persistent pnpm workspace hoisting setting and no proxy route. TypeScript, ESLint and Prettier pass. All browser regression scripts pass on the final production build, including status/results/health/downloads/history/mobile/reduced-motion coverage. Added browser-only QA report and updated source packaging. No live Netlify deployment was performed.
+
+- 2026-09-16 Netlify 404 diagnosis: public root/dashboard/new returned platform 404, but compiled server/app/dashboard.html and BUILD_ID were published. Added explicit official Next.js adapter and disabled its skip flag in the source configuration. Cloud redeployment still requires the user's GitHub/Netlify account; live fix not yet verified.
