@@ -1,7 +1,7 @@
 # Browser-only application. Netlify is the only required host.
 [build]
 base = "frontend"
-command = "pnpm build"
+command = "corepack enable && corepack prepare pnpm@11.19.0 --activate && pnpm build"
 publish = ".next"
 
 [build.environment]
